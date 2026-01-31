@@ -111,12 +111,12 @@
           </div>
 
           <div class="col-lg-7">
-            <form id="contact-form" action="https://formspree.io/f/xjgrprkp" method="POST" class="php-email-form"
+            <form id="contact-form" method="POST" class="php-email-form"
               data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Your Name</label>
+                  <label for="name-fi   eld" class="pb-2">Your Name</label>
                   <input type="text" name="name" id="name-field" class="form-control" required pattern="[A-Za-z\s]+"
                     title="Name should contain only letters and spaces">
                 </div>
@@ -192,7 +192,7 @@
   <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script>
     // Initialize EmailJS
-    emailjs.init("yi0pjXmEJVKV8KWy1");
+    emailjs.init("aSRtX1OPk99eHEWRD");
 
     const form = document.getElementById("contact-form");
     const loading = document.querySelector(".loading");
@@ -207,8 +207,8 @@
       sentBox.style.display = "none";
 
       emailjs.sendForm(
-        "service_gtkla3d",   // Your service ID
-        "template_740cds7",  // Your template ID
+        "PortfolioConnectShidan",   // Your service ID
+        "ConnectShidanTemplate",  // Your template ID
         this
       ).then(() => {
         loading.style.display = "none";

@@ -754,6 +754,16 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+
+.aboutPotrait{
+  background-image: url(../img/about.webp);
+  height: 100%;
+  width: 100%; 
+  background-size: cover;
+  background-position: center bottom;
+  border-radius: 50%;
+} 
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
@@ -1412,15 +1422,3 @@ section,
   Add your styles here 
 } */
 
-.aboutPotrait{
-  background-image: url(../img/about.webp);
-  height: 100%;
-  width: 100%; 
-  background-size: cover;
-  background-position: center bottom;
-  border-radius: 50%;
-} 
-/* .aboutPotrait img{
-  height: 10px;
-  width: 0px;
-} */
